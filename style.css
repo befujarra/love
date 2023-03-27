@@ -11,7 +11,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (min-width: 801px) {
+  body {
+    background-image: url("assets/bg-pc.png");
+    background-size: 1920px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   body {
     background-image: url("assets/cell3.png");
     background-size: 900px;
@@ -26,9 +33,9 @@ img {
   text-align: center;
   border: 1px solid black;
   border-radius: 20px;
-  margin: 200px auto;
-  width: 525px;
-  height: 500px;
+  margin: 150px auto;
+  width: 325px;
+  height: 600px;
   background: white;
   box-shadow: 5px 5px 5px black;
 }
